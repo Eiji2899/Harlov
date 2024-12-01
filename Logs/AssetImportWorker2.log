@@ -1,0 +1,2531 @@
+Using pre-set license
+Built from '6000.0/staging' branch; Version is '6000.0.26f1 (ccb7c73d2c02) revision 13416391'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'en' Physical Memory: 15791 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity 2021.3.0f1\6000.0.26f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+D:/Game Dev - Unity/Unity Games/Harlov/Harlov
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+12244
+-job-worker-count
+7
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+Successfully changed project path to: D:/Game Dev - Unity/Unity Games/Harlov/Harlov
+D:/Game Dev - Unity/Unity Games/Harlov/Harlov
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [13392]  Target information:
+
+Player connection [13392]  * "[IP] 192.168.1.101 [Port] 0 [Flags] 2 [Guid] 2437492928 [EditorId] 2437492928 [Version] 1048832 [Id] WindowsEditor(7,Eiji) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [13392] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [13392] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 2.85 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.26f1 (ccb7c73d2c02)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2021.3.0f1/6000.0.26f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Game Dev - Unity/Unity Games/Harlov/Harlov/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2520)
+    Vendor:   NVIDIA
+    VRAM:     5996 MB
+    Driver:   32.0.15.6614
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity 2021.3.0f1/6000.0.26f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 2021.3.0f1/6000.0.26f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity 2021.3.0f1/6000.0.26f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56244
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 2021.3.0f1/6000.0.26f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003222 seconds.
+- Loaded All Assemblies, in  0.562 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.772 seconds
+Domain Reload Profiling: 1331ms
+	BeginReloadAssembly (187ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (50ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (77ms)
+	LoadAllAssembliesAndSetupDomain (228ms)
+		LoadAssemblies (181ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (223ms)
+			TypeCache.Refresh (221ms)
+				TypeCache.ScanAssembly (193ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (773ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (671ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (100ms)
+			SetLoadedEditorAssemblies (15ms)
+			BeforeProcessingInitializeOnLoad (17ms)
+			ProcessInitializeOnLoadAttributes (452ms)
+			ProcessInitializeOnLoadMethodAttributes (83ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.029 seconds
+Refreshing native plugins compatible for Editor in 1.28 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.052 seconds
+Domain Reload Profiling: 2079ms
+	BeginReloadAssembly (402ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (38ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (544ms)
+		LoadAssemblies (368ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (274ms)
+			TypeCache.Refresh (189ms)
+				TypeCache.ScanAssembly (171ms)
+			BuildScriptInfoCaches (72ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (1053ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (807ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (62ms)
+			ProcessInitializeOnLoadAttributes (627ms)
+			ProcessInitializeOnLoadMethodAttributes (104ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 3.53 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 206 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6523 unused Assets / (4.8 MB). Loaded Objects now: 7301.
+Memory consumption went from 197.6 MB to 192.8 MB.
+Total: 25.508800 ms (FindLiveObjects: 2.081100 ms CreateObjectMapping: 1.835200 ms MarkObjects: 14.565200 ms  DeleteObjects: 7.025000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 146077.737256 seconds.
+  path: Assets/Spaceship.png
+  artifactKey: Guid(bd5f35c4a6b3dd44889f38e1d9e627a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spaceship.png using Guid(bd5f35c4a6b3dd44889f38e1d9e627a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7ccc324556dff58ff40b0c382d5070c3') in 0.1283914 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 56.192196 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c391582d739b6e62a5220f35cbb167ac') in 0.0005657 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.705144 seconds.
+  path: Assets/Asteroids
+  artifactKey: Guid(4c8227f8067358b408366f921317337e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asteroids using Guid(4c8227f8067358b408366f921317337e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7197a03f78b8b9a5ad41fddfe3d534f7') in 0.0008317 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 470.832028 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(321f4bf2a93e89e44b9a54f63f53dd89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(321f4bf2a93e89e44b9a54f63f53dd89) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '73ecc80343d723039fcd3353111f05d3') in 0.0006651 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 27.28 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6511 unused Assets / (4.2 MB). Loaded Objects now: 7311.
+Memory consumption went from 164.1 MB to 160.0 MB.
+Total: 19.653000 ms (FindLiveObjects: 1.957400 ms CreateObjectMapping: 1.677400 ms MarkObjects: 12.301100 ms  DeleteObjects: 3.715300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  3.915 seconds
+Refreshing native plugins compatible for Editor in 1.31 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.385 seconds
+Domain Reload Profiling: 5300ms
+	BeginReloadAssembly (499ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (18ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (73ms)
+	RebuildCommonClasses (207ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (3154ms)
+		LoadAssemblies (3240ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (266ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (234ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (1386ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (863ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (80ms)
+			ProcessInitializeOnLoadAttributes (704ms)
+			ProcessInitializeOnLoadMethodAttributes (64ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 1.66 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6522 unused Assets / (4.7 MB). Loaded Objects now: 7313.
+Memory consumption went from 167.0 MB to 162.3 MB.
+Total: 17.030600 ms (FindLiveObjects: 1.614200 ms CreateObjectMapping: 1.166800 ms MarkObjects: 9.800400 ms  DeleteObjects: 4.446500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 98.872450 seconds.
+  path: Assets/Scripts/NewEmptyCSharpScript.cs
+  artifactKey: Guid(c186d9800de060e469d4b35143debc27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/NewEmptyCSharpScript.cs using Guid(c186d9800de060e469d4b35143debc27) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'da446e0f72bdef8242e3eef4217157f2') in 0.0147684 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.979032 seconds.
+  path: Assets/Scripts/Spaceship.cs
+  artifactKey: Guid(c186d9800de060e469d4b35143debc27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Spaceship.cs using Guid(c186d9800de060e469d4b35143debc27) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0734e7ace85f02c930fd2281dbcce039') in 0.0011475 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.009 seconds
+Refreshing native plugins compatible for Editor in 1.39 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.290 seconds
+Domain Reload Profiling: 2299ms
+	BeginReloadAssembly (313ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (16ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (115ms)
+	RebuildCommonClasses (89ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (561ms)
+		LoadAssemblies (461ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (232ms)
+			TypeCache.Refresh (13ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (204ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (1290ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (913ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (77ms)
+			ProcessInitializeOnLoadAttributes (754ms)
+			ProcessInitializeOnLoadMethodAttributes (66ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Refreshing native plugins compatible for Editor in 2.29 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6522 unused Assets / (4.3 MB). Loaded Objects now: 7315.
+Memory consumption went from 168.9 MB to 164.7 MB.
+Total: 22.267700 ms (FindLiveObjects: 2.040500 ms CreateObjectMapping: 1.933400 ms MarkObjects: 13.112400 ms  DeleteObjects: 5.178600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 26.812256 seconds.
+  path: Assets/Scripts/SpaceshipControls.cs
+  artifactKey: Guid(c186d9800de060e469d4b35143debc27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SpaceshipControls.cs using Guid(c186d9800de060e469d4b35143debc27) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '78ff92c1c834bb75064ea116018dda82') in 0.0079415 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.418 seconds
+Refreshing native plugins compatible for Editor in 1.32 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.507 seconds
+Domain Reload Profiling: 2924ms
+	BeginReloadAssembly (423ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (19ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (193ms)
+	RebuildCommonClasses (124ms)
+	RebuildNativeTypeToScriptingClass (41ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (790ms)
+		LoadAssemblies (705ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (246ms)
+			TypeCache.Refresh (13ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (204ms)
+			ResolveRequiredComponents (24ms)
+	FinalizeReload (1508ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1100ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (101ms)
+			ProcessInitializeOnLoadAttributes (874ms)
+			ProcessInitializeOnLoadMethodAttributes (105ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (21ms)
+Refreshing native plugins compatible for Editor in 2.17 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6522 unused Assets / (4.2 MB). Loaded Objects now: 7317.
+Memory consumption went from 170.9 MB to 166.7 MB.
+Total: 17.674400 ms (FindLiveObjects: 1.273300 ms CreateObjectMapping: 1.244300 ms MarkObjects: 10.052700 ms  DeleteObjects: 5.101600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.023 seconds
+Refreshing native plugins compatible for Editor in 1.23 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.281 seconds
+Domain Reload Profiling: 2304ms
+	BeginReloadAssembly (309ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (17ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (100ms)
+	RebuildCommonClasses (91ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (47ms)
+	LoadAllAssembliesAndSetupDomain (564ms)
+		LoadAssemblies (479ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (225ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (198ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (1281ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (919ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (104ms)
+			ProcessInitializeOnLoadAttributes (736ms)
+			ProcessInitializeOnLoadMethodAttributes (64ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 1.49 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6522 unused Assets / (4.4 MB). Loaded Objects now: 7319.
+Memory consumption went from 170.9 MB to 166.5 MB.
+Total: 15.686600 ms (FindLiveObjects: 0.950400 ms CreateObjectMapping: 1.046300 ms MarkObjects: 8.724500 ms  DeleteObjects: 4.963600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 331.825218 seconds.
+  path: Assets/DefaultVolumeProfile.asset
+  artifactKey: Guid(3f9215ea0144899419cfbc0957140d3f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DefaultVolumeProfile.asset using Guid(3f9215ea0144899419cfbc0957140d3f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c962c08f1336d743cd4369a722d9ae4e') in 0.2685736 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Asteroids/large/a30004.png
+  artifactKey: Guid(1b09af153631e0e4e8f08dabedad406b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/large/a30004.png using Guid(1b09af153631e0e4e8f08dabedad406b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2423613771630b93c0d63f69f5d060ff') in 0.0880956 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Asteroids/large/b30008.png
+  artifactKey: Guid(ec74f95c0923a914cad7df1063ea2471) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/large/b30008.png using Guid(ec74f95c0923a914cad7df1063ea2471) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '74fe137f1f1f36907be164e45c606ae6') in 0.0312701 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Settings/Renderer2D.asset
+  artifactKey: Guid(424799608f7334c24bf367e4bbfa7f9a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Settings/Renderer2D.asset using Guid(424799608f7334c24bf367e4bbfa7f9a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1ed428ebfabf90221debf6763789fc19') in 0.0804273 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Asteroids/large/b30007.png
+  artifactKey: Guid(5b0107c1c3d9f884a942c618a7840f3e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/large/b30007.png using Guid(5b0107c1c3d9f884a942c618a7840f3e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1d5de6883c2b17b2c841eff59dbbfb88') in 0.0357032 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Asteroids/large/b10001.png
+  artifactKey: Guid(9b5de03e8a5377b418a8166f590b296e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/large/b10001.png using Guid(9b5de03e8a5377b418a8166f590b296e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3584fbf9962ff84855589202c679c55a') in 0.0343775 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/Asteroids/large/a10000.png
+  artifactKey: Guid(61cdb033388d98e4d85c0034f5ffcab3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/large/a10000.png using Guid(61cdb033388d98e4d85c0034f5ffcab3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '89d8a48f5ac067221a3fc623fb3646df') in 0.0381476 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Asteroids/large/b30011.png
+  artifactKey: Guid(90b5b7f9ea8e1ca479485d23d93edbfb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/large/b30011.png using Guid(90b5b7f9ea8e1ca479485d23d93edbfb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '73a60b12d70fe74ca99fcaa415331115') in 0.0407846 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Asteroids/large/c30012.png
+  artifactKey: Guid(277a06e10905e7b4187f0383eba7d812) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/large/c30012.png using Guid(277a06e10905e7b4187f0383eba7d812) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '92ac86d657fdb392ad02fb02d5f69386') in 0.0397865 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Asteroids/large/a30013.png
+  artifactKey: Guid(2824b910dd44b784281a43ccb9e604e0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/large/a30013.png using Guid(2824b910dd44b784281a43ccb9e604e0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd06ef138e68bc18c39cec933188804ee') in 0.03775 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Asteroids/large/a10006.png
+  artifactKey: Guid(03623f5aa30116e42aa53f5605e822b7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/large/a10006.png using Guid(03623f5aa30116e42aa53f5605e822b7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '02034b0772b10b05f7070f2fbc7ff48a') in 0.0378735 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Asteroids/large/c40006.png
+  artifactKey: Guid(4e34644fa8506864ea4ec6bf13726a0a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/large/c40006.png using Guid(4e34644fa8506864ea4ec6bf13726a0a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0a40f56016a03f2d5ff86ebb22f639bf') in 0.0387745 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Asteroids/large/c40003.png
+  artifactKey: Guid(20a375733fd393649b131a0490b819ea) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/large/c40003.png using Guid(20a375733fd393649b131a0490b819ea) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '938b33d5214a7293cdc81112b5aa91ee') in 0.0347979 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Asteroids/large/b30004.png
+  artifactKey: Guid(73b5840f990109442bf462582a11817d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/large/b30004.png using Guid(73b5840f990109442bf462582a11817d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e9fee00c38b692498b06bd0877787f19') in 0.044075 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Asteroids/large/c30010.png
+  artifactKey: Guid(3162699c27023e3409e159f9b4d89754) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/large/c30010.png using Guid(3162699c27023e3409e159f9b4d89754) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1ce49f70a1ce16068a3e1dda57dd96c9') in 0.049463 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Asteroids/large/a30001.png
+  artifactKey: Guid(3938bb9e08c58e942976e19b858e09d9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/large/a30001.png using Guid(3938bb9e08c58e942976e19b858e09d9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '47ec20f5b565362385efd59f92375853') in 0.0338371 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Asteroids/large/c40001.png
+  artifactKey: Guid(051230abec7f5294d844e4a2063cfcf3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/large/c40001.png using Guid(051230abec7f5294d844e4a2063cfcf3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '02029500a46f11a954ec8318ffcdf952') in 0.0424009 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Asteroids/large/c10005.png
+  artifactKey: Guid(096f916b25b64bb41a1b786a947bc1c7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/large/c10005.png using Guid(096f916b25b64bb41a1b786a947bc1c7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fb822dc58efc6f502165c72201972bdd') in 0.0420198 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Asteroids/medium/a10006.png
+  artifactKey: Guid(03fc83a3b40498c4cbc5636aa4dd113f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/medium/a10006.png using Guid(03fc83a3b40498c4cbc5636aa4dd113f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9d91d1addef0c9a2794f8fd4bd1b28c7') in 0.0385188 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Asteroids/large/c30003.png
+  artifactKey: Guid(9f228b56e38423f48916dd7c86a3f7a3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/large/c30003.png using Guid(9f228b56e38423f48916dd7c86a3f7a3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0c5bd5bee740e3ae4db8a2295637a8e2') in 0.0382048 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Asteroids/large/a30014.png
+  artifactKey: Guid(2a88c2ed9f909ab4499993b9b64de027) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/large/a30014.png using Guid(2a88c2ed9f909ab4499993b9b64de027) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0d6a7c0ceca39bcc77b445bd2a3df2d4') in 0.0370576 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Scripts/SpaceshipControls.cs
+  artifactKey: Guid(c186d9800de060e469d4b35143debc27) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/SpaceshipControls.cs using Guid(c186d9800de060e469d4b35143debc27) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a6e5bbcb3a86047173f7b1b8f497b284') in 0.0222337 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Asteroids/large/a10001.png
+  artifactKey: Guid(00aae9995555c89479eefca6cfff1897) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/large/a10001.png using Guid(00aae9995555c89479eefca6cfff1897) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cade7ee6164ec2a4346d3c88a869bf9f') in 0.0392396 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Asteroids/large/a10005.png
+  artifactKey: Guid(bb839b26f88de614ea7842876e08d3a8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/large/a10005.png using Guid(bb839b26f88de614ea7842876e08d3a8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '463dbbac5cf24f66e8cc45e7ebeee4f9') in 0.0413593 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Asteroids/large/b10010.png
+  artifactKey: Guid(a420710c3aebf3a4789d2caff96552f2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/large/b10010.png using Guid(a420710c3aebf3a4789d2caff96552f2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c12b1c957b7503172f16d393982d0e73') in 0.0489035 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Asteroids/medium/a30004.png
+  artifactKey: Guid(c50134d69a019f345855bc0e16b6183d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/medium/a30004.png using Guid(c50134d69a019f345855bc0e16b6183d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7da71732e65d6a625526a738d20c1ec9') in 0.0398573 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Asteroids/medium/a10008.png
+  artifactKey: Guid(60b000b44ca40e24195de0cec3765984) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/medium/a10008.png using Guid(60b000b44ca40e24195de0cec3765984) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '71c2f1a7e4a8fff77f5778bfa455bf88') in 0.0367735 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Asteroids/medium/a10015.png
+  artifactKey: Guid(6505a4330af430d4e930e587fb2c96e3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/medium/a10015.png using Guid(6505a4330af430d4e930e587fb2c96e3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '68101264d17519bda373cd66553abed4') in 0.0368069 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Asteroids/large/c10007.png
+  artifactKey: Guid(4740de4ee4ac04c44afc16f255482624) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/large/c10007.png using Guid(4740de4ee4ac04c44afc16f255482624) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '45f7489df50ba492a0c0927d43b2f653') in 0.0400879 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Asteroids/medium/a10003.png
+  artifactKey: Guid(b6809fd6123339d4e88bd8308b20ef73) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/medium/a10003.png using Guid(b6809fd6123339d4e88bd8308b20ef73) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0bf4c311d0fd82688aa8e6ed215615ef') in 0.0403808 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Asteroids/medium/a10005.png
+  artifactKey: Guid(192772722cc4d234d89847f545fe6f75) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/medium/a10005.png using Guid(192772722cc4d234d89847f545fe6f75) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f4da0ceb77d4968908f1401e51d78e4e') in 0.0365456 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Asteroids/large/a30012.png
+  artifactKey: Guid(c06aa914c18a95d459467d4681a5ad36) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/large/a30012.png using Guid(c06aa914c18a95d459467d4681a5ad36) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a02794fe12a4be9925b2b3e0b0169602') in 0.0431559 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Asteroids/medium/a30012.png
+  artifactKey: Guid(4813bfe58eae3804db46aab3432ad95c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/medium/a30012.png using Guid(4813bfe58eae3804db46aab3432ad95c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3d9df51e847ea66c76daacb7ea3e4346') in 0.0360135 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Asteroids/medium/a30014.png
+  artifactKey: Guid(28d5c1ba24b6f434ea5c308e35684208) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/medium/a30014.png using Guid(28d5c1ba24b6f434ea5c308e35684208) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '96a56e1781793683a179c652424cb86c') in 0.0366019 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Asteroids/large/a10003.png
+  artifactKey: Guid(aefaf4829760ade4b8c2d677ee078253) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/large/a10003.png using Guid(aefaf4829760ade4b8c2d677ee078253) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '84b269f5841ce4e729c1aed7d487ffc3') in 0.0390275 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Asteroids/medium/a40000.png
+  artifactKey: Guid(314b47c5838359843bb1f0e3bc055125) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/medium/a40000.png using Guid(314b47c5838359843bb1f0e3bc055125) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2ac8cfda70140977aae6e28d27ffe649') in 0.0338118 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Asteroids/medium/a10007.png
+  artifactKey: Guid(d3dd1318e1b66e841981546c3fd94257) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/medium/a10007.png using Guid(d3dd1318e1b66e841981546c3fd94257) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f2348da58fd5592f4fad65d4cee5b277') in 0.0337104 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Asteroids/medium/a30007.png
+  artifactKey: Guid(4aa3ed78ce87b454fb368a76974389ef) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/medium/a30007.png using Guid(4aa3ed78ce87b454fb368a76974389ef) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4d257954c8f23ba60b3d7abe2fe7a645') in 0.0376047 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Asteroids/large/a10014.png
+  artifactKey: Guid(d9fd9f45087b5a44684ef6b420e447fd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/large/a10014.png using Guid(d9fd9f45087b5a44684ef6b420e447fd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '886839995f9fce8a585f7bbeab706d6b') in 0.0508474 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Asteroids/medium/a10011.png
+  artifactKey: Guid(5ebeffdf666b54540ab0f6fc74cfe5e4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/medium/a10011.png using Guid(5ebeffdf666b54540ab0f6fc74cfe5e4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0cd5c6cc0c80baba44d11b6a58e27ac5') in 0.0657294 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Asteroids/medium/b40001.png
+  artifactKey: Guid(5cb5874cb38861941b2f5c6670f61e49) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/medium/b40001.png using Guid(5cb5874cb38861941b2f5c6670f61e49) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '49aa898a90ad50bc9bce040a31d1d896') in 0.0491901 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Asteroids/medium/a40012.png
+  artifactKey: Guid(886cb4001705d1f42afe4551842c66df) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/medium/a40012.png using Guid(886cb4001705d1f42afe4551842c66df) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6b8d617c5c093b20c3010b3d3c792116') in 0.0386946 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Asteroids/medium/a40013.png
+  artifactKey: Guid(5d6f3c78194d171448390aa9af7e7825) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/medium/a40013.png using Guid(5d6f3c78194d171448390aa9af7e7825) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4afa961b2d5bcf04c213554bc76a4a90') in 0.0495625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Asteroids/medium/a40007.png
+  artifactKey: Guid(077549263f6c5db4c879beafe626bcc6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/medium/a40007.png using Guid(077549263f6c5db4c879beafe626bcc6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1ba0da93f461efc35cfbe202ffeeca1e') in 0.0364792 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Asteroids/medium/b40003.png
+  artifactKey: Guid(1852ab2ab71bdea479940481ea23688e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/medium/b40003.png using Guid(1852ab2ab71bdea479940481ea23688e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '17bec693f8964d31bb2bde0c7ca4d9dd') in 0.0321604 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Asteroids/large/c10006.png
+  artifactKey: Guid(9c1e3a26f6649c043a3d627a3e28892e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/large/c10006.png using Guid(9c1e3a26f6649c043a3d627a3e28892e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dc8edc17d4a8c4a47b33ca916d98e2f5') in 0.035601 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Asteroids/medium/b40012.png
+  artifactKey: Guid(e8b1595dfe793d94da8300c47dae79d6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/medium/b40012.png using Guid(e8b1595dfe793d94da8300c47dae79d6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '68cd171b932c9e68b14e4a896cfd0fb9') in 0.0387859 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Asteroids/medium/b40008.png
+  artifactKey: Guid(08b0d2e3f56a0084f9ca29ae56da15cb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/medium/b40008.png using Guid(08b0d2e3f56a0084f9ca29ae56da15cb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f0edf84e9aaa82d0778c75d95596ca6c') in 0.0379354 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/Asteroids/medium/b40011.png
+  artifactKey: Guid(862c6bc4ea4ecb640a1f66882662e288) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/medium/b40011.png using Guid(862c6bc4ea4ecb640a1f66882662e288) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0dbeeca7b31fa11c39d5efc04243c5b2') in 0.0359291 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Asteroids/medium/b40010.png
+  artifactKey: Guid(c73f6e6bf935f0f48ae203c32c677f21) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/medium/b40010.png using Guid(c73f6e6bf935f0f48ae203c32c677f21) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2b1f058e73cd798fb528b89e86a80c6a') in 0.034621 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Asteroids/large/b10000.png
+  artifactKey: Guid(3c41a623650c0d44e94a8edcb5d03aad) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/large/b10000.png using Guid(3c41a623650c0d44e94a8edcb5d03aad) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ca8a46976b837d25c509097b6f2fb3a2') in 0.0284268 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Asteroids/medium/b40004.png
+  artifactKey: Guid(4db3874207656724ab013da4eaa9f7f4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/medium/b40004.png using Guid(4db3874207656724ab013da4eaa9f7f4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f0c52bf5ce7a52a1d7805375c58d1933') in 0.0414464 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Asteroids/medium/a30003.png
+  artifactKey: Guid(c4dc8565b55722145b61d6f009e0cfaf) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/medium/a30003.png using Guid(c4dc8565b55722145b61d6f009e0cfaf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '38efe9471a0d4219e875ca9f1978b531') in 0.0335935 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Asteroids/large/a10008.png
+  artifactKey: Guid(d166027ca7970d0419d6d314de3b3a6c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/large/a10008.png using Guid(d166027ca7970d0419d6d314de3b3a6c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1ca9a2fea3e40920ce4541f6077bbcb5') in 0.0343823 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Asteroids/medium/c10001.png
+  artifactKey: Guid(37170235da1997a488e1cc3778ef7bbe) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/medium/c10001.png using Guid(37170235da1997a488e1cc3778ef7bbe) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c7771dad9f03b9073f119c0b8b3606ba') in 0.0404709 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Asteroids/medium/c10005.png
+  artifactKey: Guid(1e64deb2e9947d8469cc502edcbd5718) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/medium/c10005.png using Guid(1e64deb2e9947d8469cc502edcbd5718) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7a31afd1dffc56c9864ed13ffb05d0b4') in 0.0621705 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Asteroids/medium/c10003.png
+  artifactKey: Guid(484e7ec0f7616ed419dff201d31198b5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/medium/c10003.png using Guid(484e7ec0f7616ed419dff201d31198b5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '376f3fdebab0fe3e181bcdd71e0536e7') in 0.0348829 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Asteroids/medium/c10009.png
+  artifactKey: Guid(4ff488d2233227643b42cf83a4c4a32a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/medium/c10009.png using Guid(4ff488d2233227643b42cf83a4c4a32a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '20aafdea334a76fd6ddcf82bff077ada') in 0.0393637 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Asteroids/medium/a30001.png
+  artifactKey: Guid(6632be14daa4dc14690c52d800bb9562) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/medium/a30001.png using Guid(6632be14daa4dc14690c52d800bb9562) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '95b63adc0d3b2b17e57baf3da2a772d9') in 0.039581 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Asteroids/large/c30002.png
+  artifactKey: Guid(2fbe4cdfd6589ad4887970f65fb083f0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/large/c30002.png using Guid(2fbe4cdfd6589ad4887970f65fb083f0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '59f9bf7a7d6fc0481ba0ce07c0aab11a') in 0.0316432 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Asteroids/large/c10011.png
+  artifactKey: Guid(7d3aec88762242243a0c3c82548908b2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/large/c10011.png using Guid(7d3aec88762242243a0c3c82548908b2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5f07668a980cb659a77facdf7969e58b') in 0.038048 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Asteroids/medium/c30012.png
+  artifactKey: Guid(d9f3499db021d2a43b2fe0f1b221988f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/medium/c30012.png using Guid(d9f3499db021d2a43b2fe0f1b221988f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '73348535169bea05d1dc737d00a072dc') in 0.043383 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Asteroids/medium/c30008.png
+  artifactKey: Guid(6e7441cf02699094a816ff9a19ce0403) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/medium/c30008.png using Guid(6e7441cf02699094a816ff9a19ce0403) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '071582819abecbfaf094b22fda6a7228') in 0.035669 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Asteroids/medium/c30006.png
+  artifactKey: Guid(c18fe101e49264941a686aaa312bbf47) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/medium/c30006.png using Guid(c18fe101e49264941a686aaa312bbf47) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f98e8eea5bc200b594ccdcac148e0dc4') in 0.0409865 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Asteroids/medium/c30007.png
+  artifactKey: Guid(85c9bba8ee00d5f4fb4f4e447151c043) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/medium/c30007.png using Guid(85c9bba8ee00d5f4fb4f4e447151c043) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '29f08f9c6b7b23cbce4ea73a1a0fdad2') in 0.0559211 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Asteroids/medium/c30003.png
+  artifactKey: Guid(55685f8d55162264e95b443a8456d9a5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/medium/c30003.png using Guid(55685f8d55162264e95b443a8456d9a5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3e840b2c6fb4569f0af25903feb36cb1') in 0.0498818 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Asteroids/medium/c30009.png
+  artifactKey: Guid(6724f003d9bc2744caec9a675d18946a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/medium/c30009.png using Guid(6724f003d9bc2744caec9a675d18946a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '70ff7b8a70eebb13ed633a70a4833c80') in 0.0509065 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Asteroids/medium/a30013.png
+  artifactKey: Guid(e9d060582da48a348b99422099f33252) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/medium/a30013.png using Guid(e9d060582da48a348b99422099f33252) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '38eec0c64e97b4deed3b91d79b21d728') in 0.0424212 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Asteroids/medium/c40008.png
+  artifactKey: Guid(65507c9495c9bc342ab1abba8ecaa4a0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/medium/c40008.png using Guid(65507c9495c9bc342ab1abba8ecaa4a0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a4e8608a860371ae9d3e61bb73b79c8b') in 0.0438683 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Asteroids/medium/c30014.png
+  artifactKey: Guid(98315daed79668840a4139c288c3cdd4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/medium/c30014.png using Guid(98315daed79668840a4139c288c3cdd4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd49a1eabe0514a91e00c6db043f61f7c') in 0.0405164 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Asteroids/medium/c40006.png
+  artifactKey: Guid(fa68e8ee5f6b8564ca089bc1a42bd9d0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/medium/c40006.png using Guid(fa68e8ee5f6b8564ca089bc1a42bd9d0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9736780008754b24ce24c1362660586e') in 0.0364891 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Asteroids/medium/c40001.png
+  artifactKey: Guid(728918218f7a9bc4d946020a86155c2e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/medium/c40001.png using Guid(728918218f7a9bc4d946020a86155c2e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fdceb50faf6ad450db8c5c8429ab0580') in 0.0402207 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Asteroids/medium/c40003.png
+  artifactKey: Guid(e9fe56b2eee1ef945849bbb0ea5b1ee5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/medium/c40003.png using Guid(e9fe56b2eee1ef945849bbb0ea5b1ee5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cba140f31bb237ea7f5be6b185dc240c') in 0.040083 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Asteroids/large/b10013.png
+  artifactKey: Guid(b71fb29a6ea2fe14aacc79a576b8b278) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/large/b10013.png using Guid(b71fb29a6ea2fe14aacc79a576b8b278) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1c290c3cc458c0ff6e0b09ab073ec611') in 0.0420706 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Asteroids/medium/d10007.png
+  artifactKey: Guid(313f5e149e82f3e48803df27bf3b1922) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/medium/d10007.png using Guid(313f5e149e82f3e48803df27bf3b1922) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1116d7bd29e8f89caf9afb95d3721dd9') in 0.0411013 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Asteroids/medium/d10002.png
+  artifactKey: Guid(3ecb031347899a144a7da8f877c4a320) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/medium/d10002.png using Guid(3ecb031347899a144a7da8f877c4a320) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '901a19c9bdd2f9db3a72bce0073822de') in 0.036744 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Asteroids/medium/d10003.png
+  artifactKey: Guid(30c713f917f4b794bbb1dd43d4603fd9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/medium/d10003.png using Guid(30c713f917f4b794bbb1dd43d4603fd9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3e1b68c6061a5b1f2aa0c2e08555e798') in 0.041476 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Asteroids/medium/d10001.png
+  artifactKey: Guid(6e05480b18764ec4db7a87e6203d675f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/medium/d10001.png using Guid(6e05480b18764ec4db7a87e6203d675f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '63706c5418ab7e145e2a0cfe32d4630c') in 0.0458688 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Asteroids/medium/c40013.png
+  artifactKey: Guid(81c72ed09b6d90444a462de88c033972) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/medium/c40013.png using Guid(81c72ed09b6d90444a462de88c033972) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '17f36cacb310b6d53cd599e064748551') in 0.0420813 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Asteroids/large/c10000.png
+  artifactKey: Guid(0c9aa14530300f846964b0f7474557a5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/large/c10000.png using Guid(0c9aa14530300f846964b0f7474557a5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'aa8454bc4eeba58d85f1795017f4deaa') in 0.0335176 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Asteroids/medium/a40009.png
+  artifactKey: Guid(3a30a22cd210c8c4ea98f690b49118a9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/medium/a40009.png using Guid(3a30a22cd210c8c4ea98f690b49118a9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '108b4fdbcdcbc6d0b5d2be400a98fd0d') in 0.0350994 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Asteroids/medium/a30002.png
+  artifactKey: Guid(6837ace3f4b25534fb1fa26f3d139e74) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/medium/a30002.png using Guid(6837ace3f4b25534fb1fa26f3d139e74) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '70f4a41c601743e30e03683f903bf105') in 0.0386572 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Asteroids/medium/d30000.png
+  artifactKey: Guid(49df41fe301649a42b9db4fc6ee14b24) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/medium/d30000.png using Guid(49df41fe301649a42b9db4fc6ee14b24) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '276b032b4949ca261d71b9329fa28699') in 0.034061 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Asteroids/medium/d30001.png
+  artifactKey: Guid(d4c9e46616c75ab4bbc9d10e510a2165) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/medium/d30001.png using Guid(d4c9e46616c75ab4bbc9d10e510a2165) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dba634df39dce9d63403983f8c1c8eeb') in 0.0408805 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Asteroids/medium/d10014.png
+  artifactKey: Guid(e6fb43bbf28e8564a91cd763e85c6141) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/medium/d10014.png using Guid(e6fb43bbf28e8564a91cd763e85c6141) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd08d4115d5d0b24e52dbc8e7248b3685') in 0.0378987 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Asteroids/medium/d10013.png
+  artifactKey: Guid(f1b05e0e1237de045b60088e4dd208c5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/medium/d10013.png using Guid(f1b05e0e1237de045b60088e4dd208c5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd3f613ec2a63b3eb16e48ceb31213dcd') in 0.0420866 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Asteroids/medium/d10009.png
+  artifactKey: Guid(e06ff737b38f5934da388316012cd12e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/medium/d10009.png using Guid(e06ff737b38f5934da388316012cd12e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '02e4749c763a7c9a0a9a66c98e5e0018') in 0.0499194 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Asteroids/medium/d10008.png
+  artifactKey: Guid(d55fe31f813d20a45a3b4b7a2ea76b73) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/medium/d10008.png using Guid(d55fe31f813d20a45a3b4b7a2ea76b73) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3704bffcf0832e102de25a25b471e2e2') in 0.0736294 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Asteroids/medium/d30011.png
+  artifactKey: Guid(46937d9a35dd12240a6a980bf928646c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/medium/d30011.png using Guid(46937d9a35dd12240a6a980bf928646c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c6070d9e84bcddeb517b32dac28a0f8e') in 0.0390759 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Asteroids/medium/d40001.png
+  artifactKey: Guid(0c4a471cddb753343ad6fcd2657fa804) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/medium/d40001.png using Guid(0c4a471cddb753343ad6fcd2657fa804) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '405b2c0ffe64913905eaba544f7cad23') in 0.0663401 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Asteroids/medium/d30014.png
+  artifactKey: Guid(43b55462f3e3c704f998107a9df40453) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/medium/d30014.png using Guid(43b55462f3e3c704f998107a9df40453) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1b04267bbd9c14fe256b1779b70db278') in 0.043009 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Asteroids/medium/d30004.png
+  artifactKey: Guid(87d080a010381314eac4d0b7ea631d87) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/medium/d30004.png using Guid(87d080a010381314eac4d0b7ea631d87) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '57fd2831588dff404c96b19a38042cee') in 0.0378505 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Asteroids/large/a30002.png
+  artifactKey: Guid(07db8ece48e10cc429f086d3941e57dd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/large/a30002.png using Guid(07db8ece48e10cc429f086d3941e57dd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fe5d7932feff5b9f810880ac35c73108') in 0.0370295 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Asteroids/large/b10006.png
+  artifactKey: Guid(904d0f00ac0759c4fb69dcf5959cfae9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/large/b10006.png using Guid(904d0f00ac0759c4fb69dcf5959cfae9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9774cf2b67fbe37a9846e3342c9820ad') in 0.0348538 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Asteroids/medium/d40012.png
+  artifactKey: Guid(65edc8710f1ac3745b5383b77174d651) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/medium/d40012.png using Guid(65edc8710f1ac3745b5383b77174d651) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1d7ff7655feddc2e8afec5aa2c634874') in 0.0375865 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Asteroids/medium/d40011.png
+  artifactKey: Guid(870c616b8b23c494aa100e4737a389f7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/medium/d40011.png using Guid(870c616b8b23c494aa100e4737a389f7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '73a8a48696fd8e6e4eb5bb247af70a64') in 0.0562748 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Asteroids/medium/d40004.png
+  artifactKey: Guid(9e0ddc8fdf66a67478f8ed2e7bb79b03) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/medium/d40004.png using Guid(9e0ddc8fdf66a67478f8ed2e7bb79b03) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cc55b23e671db2eeb068a03ff72b5cbb') in 0.0523119 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Asteroids/medium/d40008.png
+  artifactKey: Guid(9287467d9f13f6141a8ef89ec4ed9ed8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/medium/d40008.png using Guid(9287467d9f13f6141a8ef89ec4ed9ed8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bfbd72aff7c713e306fa594e8de9ec78') in 0.0385372 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Asteroids/medium/d40003.png
+  artifactKey: Guid(63862d7305710464384f48094443e1da) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/medium/d40003.png using Guid(63862d7305710464384f48094443e1da) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b714e356eb9d20f7e77fc17743f960a9') in 0.0485375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Asteroids/medium/d40013.png
+  artifactKey: Guid(6d519854988aa574e91aab79b3f8e87f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/medium/d40013.png using Guid(6d519854988aa574e91aab79b3f8e87f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd8f1c52e376c6b4e834601bfb920bfca') in 0.0616141 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Asteroids/medium/c30000.png
+  artifactKey: Guid(744dca0b2e6a2904c9cd7d244cbb057e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/medium/c30000.png using Guid(744dca0b2e6a2904c9cd7d244cbb057e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2d677fb87ca9d457d2cc4426e8b58504') in 0.0543167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Asteroids/small/a10003.png
+  artifactKey: Guid(9aa1d5704e771414bbad64d59fc00cca) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/small/a10003.png using Guid(9aa1d5704e771414bbad64d59fc00cca) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '491e8c0f6c7de384f890bd7142634346') in 0.0517317 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Asteroids/small/a10012.png
+  artifactKey: Guid(ac311e6d72fdeab4fb8843ba711153f4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/small/a10012.png using Guid(ac311e6d72fdeab4fb8843ba711153f4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2106df66825d7c98dd71b1cfb23b123d') in 0.0416151 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Asteroids/small/a10000.png
+  artifactKey: Guid(4de7e71f8714d5144858e70be53f3172) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/small/a10000.png using Guid(4de7e71f8714d5144858e70be53f3172) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ded774c495b24871ad9e96cef85ad051') in 0.0535536 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Asteroids/small/a10001.png
+  artifactKey: Guid(1bed4017909237b45bc7bed9f5d60750) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/small/a10001.png using Guid(1bed4017909237b45bc7bed9f5d60750) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9a9305e45460dc523bb3f43b071dc6b7') in 0.0391883 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Asteroids/small/a10008.png
+  artifactKey: Guid(ba93eb10824b7354b89ee55dcae1f2a2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/small/a10008.png using Guid(ba93eb10824b7354b89ee55dcae1f2a2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd9b2240010a5048c0a72c0a6f1b2094c') in 0.0442433 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Asteroids/large/a10012.png
+  artifactKey: Guid(d6c8474a6c9cf7947af5318f30fb2486) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/large/a10012.png using Guid(d6c8474a6c9cf7947af5318f30fb2486) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '88bdad56895ff626082a09f995435baa') in 0.0507734 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Asteroids/small/a30004.png
+  artifactKey: Guid(f77ffa05b35dd224fa9b30bbc038d284) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/small/a30004.png using Guid(f77ffa05b35dd224fa9b30bbc038d284) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0bf52731a67661c7e1b1221bfdd6f8c8') in 0.0375214 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Asteroids/medium/a10001.png
+  artifactKey: Guid(ed8f35542c943564e9188ea8a1a83d6d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/medium/a10001.png using Guid(ed8f35542c943564e9188ea8a1a83d6d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '54ca861f1e8413c4ed8b47ecd2985e86') in 0.04027 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Asteroids/medium/c10007.png
+  artifactKey: Guid(f18e7a253ad174d4187989cb2778cd01) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/medium/c10007.png using Guid(f18e7a253ad174d4187989cb2778cd01) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '00ab35882565f465b78499800a64f5e9') in 0.0438755 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Asteroids/medium/a10009.png
+  artifactKey: Guid(b1745d3f898c2b8408ada4e9b6780be3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/medium/a10009.png using Guid(b1745d3f898c2b8408ada4e9b6780be3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b44787cea6dc5d14118688724e1a5acc') in 0.045864 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Asteroids/medium/b40015.png
+  artifactKey: Guid(7691e3f21d4fdaf45a96ba688a7cba2f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/medium/b40015.png using Guid(7691e3f21d4fdaf45a96ba688a7cba2f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5642f8a98d82470a1acc60890a61049e') in 0.0408139 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Asteroids/medium/c10006.png
+  artifactKey: Guid(60c4c66b931409c4285f9ae913b746dd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/medium/c10006.png using Guid(60c4c66b931409c4285f9ae913b746dd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd3e061f2039b1ea0c2eb015b210684a6') in 0.0365245 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Asteroids/medium/c30002.png
+  artifactKey: Guid(b35e265b57d0b384e827ca993b79145e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/medium/c30002.png using Guid(b35e265b57d0b384e827ca993b79145e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '973eff6605857a3b8f58b041cd05ec07') in 0.0406663 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Asteroids/small/a40006.png
+  artifactKey: Guid(b3ad6795af72cd54192e5af51a5b4877) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/small/a40006.png using Guid(b3ad6795af72cd54192e5af51a5b4877) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e4a6fda90e9a59a786d8bb81ce8408b7') in 0.0404225 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Asteroids/small/a30012.png
+  artifactKey: Guid(8dc89cd5168d5e74da35d59dde5d14d7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/small/a30012.png using Guid(8dc89cd5168d5e74da35d59dde5d14d7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ee662ce8c8d1885198b8a7f427b6c609') in 0.0311367 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Asteroids/large/c40004.png
+  artifactKey: Guid(cceef0c20518260499fc4eb6407ac718) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/large/c40004.png using Guid(cceef0c20518260499fc4eb6407ac718) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c145ccb30e11136b1aa38fb0cdeaed75') in 0.0365054 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Asteroids/large/a30015.png
+  artifactKey: Guid(26f708f7fd8ac2d4686f1340705607e7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/large/a30015.png using Guid(26f708f7fd8ac2d4686f1340705607e7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ea8a8ce4d718510fa42c8893ab17697d') in 0.0355434 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Asteroids/medium/b40014.png
+  artifactKey: Guid(217c862cec171e54fb579898deea9dae) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/medium/b40014.png using Guid(217c862cec171e54fb579898deea9dae) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '77c5d54b7ae8b4a50678fbe2453bb40b') in 0.0437365 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Asteroids/large/b10012.png
+  artifactKey: Guid(edcbc265564e5384cb19bafdddba6b2c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/large/b10012.png using Guid(edcbc265564e5384cb19bafdddba6b2c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1d49fe864d808cfbd07e04fbc5c07f81') in 0.0379318 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Asteroids/small/a10009.png
+  artifactKey: Guid(8cf77044af2d37148888dcffcf9303d0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/small/a10009.png using Guid(8cf77044af2d37148888dcffcf9303d0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'efeada84b734d9d51ff24535205d7c2e') in 0.0351311 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Asteroids/large/b10005.png
+  artifactKey: Guid(4d72301cb3e0c7145ab8564e44b968e4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/large/b10005.png using Guid(4d72301cb3e0c7145ab8564e44b968e4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cc9b02b703cba674c5bdf3c4f636fc6d') in 0.0386783 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Asteroids/small/b10004.png
+  artifactKey: Guid(8d712d7c2a50aa045ad6d5f0a980fa43) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/small/b10004.png using Guid(8d712d7c2a50aa045ad6d5f0a980fa43) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7901c1b1ca0f03d51f6f0d94120e8d37') in 0.0438154 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Asteroids/small/b10003.png
+  artifactKey: Guid(e941a4004071a8b4e82546a1abae2672) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/small/b10003.png using Guid(e941a4004071a8b4e82546a1abae2672) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7f0d69fdfeb5d11c22fa2c5967df881d') in 0.0477526 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Asteroids/medium/c40012.png
+  artifactKey: Guid(25192ff6c7fa3ba4594280ff5589964c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/medium/c40012.png using Guid(25192ff6c7fa3ba4594280ff5589964c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5c4c741368f8682aad752daf9e7c1584') in 0.0434729 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Asteroids/large/b30002.png
+  artifactKey: Guid(b09349f157b04aa46bb2a668bf2bf8a7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/large/b30002.png using Guid(b09349f157b04aa46bb2a668bf2bf8a7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c9a9d7e008d62d9d6ac769a147c81ca9') in 0.0471785 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Asteroids/large/c40009.png
+  artifactKey: Guid(dda9283f973669349abe0f4231ba32b0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/large/c40009.png using Guid(dda9283f973669349abe0f4231ba32b0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6238cef1495d1aedabe0b36a533bd8c9') in 0.0484399 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Asteroids/large/c30015.png
+  artifactKey: Guid(f779ee758f90d034dbd977128de3d137) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/large/c30015.png using Guid(f779ee758f90d034dbd977128de3d137) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dca5e7a235389c7f0dfd3e860b7123af') in 0.0469941 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Asteroids/small/b10015.png
+  artifactKey: Guid(630b4165e069a1948b9f3138ccdd6f79) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/small/b10015.png using Guid(630b4165e069a1948b9f3138ccdd6f79) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '04c7bd3586c678be8673e1ed95b9c44e') in 0.0451733 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Asteroids/small/b10008.png
+  artifactKey: Guid(5dd79e9fc56d2884f938bfa941fe918b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/small/b10008.png using Guid(5dd79e9fc56d2884f938bfa941fe918b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bc04f0f1c8237b7afcd3bd3873658b1a') in 0.0400561 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Asteroids/small/b30000.png
+  artifactKey: Guid(834fb4743d6d8bf40b02b9e5b4e0cff8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/small/b30000.png using Guid(834fb4743d6d8bf40b02b9e5b4e0cff8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4f0fe952f6c5bf9d25eedfd5a3dbb8ca') in 0.0390821 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Settings/Lit2DSceneTemplate.scenetemplate
+  artifactKey: Guid(d03ed43fc9d8a4f2e9fa70c1c7916eb9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Settings/Lit2DSceneTemplate.scenetemplate using Guid(d03ed43fc9d8a4f2e9fa70c1c7916eb9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2621b5ba8f4f117c9aa3530b662b414e') in 0.0954037 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Asteroids/medium/c40011.png
+  artifactKey: Guid(df0fa85ff132fe14cbbc46c37a297748) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/medium/c40011.png using Guid(df0fa85ff132fe14cbbc46c37a297748) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0a39fd705fa1f192c320756bf8376116') in 0.0430682 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Asteroids/medium/a30015.png
+  artifactKey: Guid(1851c26e2d69ca043a397d72552a9117) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/medium/a30015.png using Guid(1851c26e2d69ca043a397d72552a9117) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dcd5f9e5ca304f04fb278e976080da28') in 0.0453202 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Asteroids/small/b30004.png
+  artifactKey: Guid(55e4aca7a2920824bb7e9e66dc21a5a2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/small/b30004.png using Guid(55e4aca7a2920824bb7e9e66dc21a5a2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'db9d1be7d84ec3e631446cbcdc7d15b9') in 0.0414313 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Asteroids/small/b30010.png
+  artifactKey: Guid(d916e4d4d80e3774cb453a42e6440f5d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/small/b30010.png using Guid(d916e4d4d80e3774cb453a42e6440f5d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '102cfc901d30eba5aed8d68fedac6b6e') in 0.0396543 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Asteroids/small/b30003.png
+  artifactKey: Guid(8ba291831d2d5564db0e8a38835de9ab) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/small/b30003.png using Guid(8ba291831d2d5564db0e8a38835de9ab) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '898faeedb1c3506b12642e2baac4d13e') in 0.0416144 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Asteroids/small/a40002.png
+  artifactKey: Guid(8bccb7d86f040ab44846d6955a9b842a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/small/a40002.png using Guid(8bccb7d86f040ab44846d6955a9b842a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8e8c1095ac559a3ec091187ef3a99b52') in 0.0424099 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Asteroids/large/c30011.png
+  artifactKey: Guid(52747e4339e679849ae9ddbea8834b7c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/large/c30011.png using Guid(52747e4339e679849ae9ddbea8834b7c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b3dfdc1625891028ba3d1fef6bd194bc') in 0.039158 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Asteroids/medium/a40014.png
+  artifactKey: Guid(10c4a5c7c6fe3e84d8bc2e25e1d5f1ec) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/medium/a40014.png using Guid(10c4a5c7c6fe3e84d8bc2e25e1d5f1ec) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '650daece36f76ca78f439d47f44e6ad5') in 0.0410496 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Asteroids/medium/b40007.png
+  artifactKey: Guid(3af4f50081d976d46bd5b3fc7c66cadd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/medium/b40007.png using Guid(3af4f50081d976d46bd5b3fc7c66cadd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c2de6aabbc6e4546b9fc0e7a6c5cdbd7') in 0.0419365 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Asteroids/small/b40005.png
+  artifactKey: Guid(78c76beb90cad264fbc564e75a88c076) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/small/b40005.png using Guid(78c76beb90cad264fbc564e75a88c076) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '77c6e420685aed2c30793d752ee5a77f') in 0.0455434 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Asteroids/small/b40007.png
+  artifactKey: Guid(256af82c6c97b9943ba02f3888782b0f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/small/b40007.png using Guid(256af82c6c97b9943ba02f3888782b0f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cc724f717395998f4c01e4f4a10e0a47') in 0.0428529 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Asteroids/small/b40011.png
+  artifactKey: Guid(12d1f6f98cbda464c95633e2322ea619) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/small/b40011.png using Guid(12d1f6f98cbda464c95633e2322ea619) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9ba02095d535a6e59b194534d5c9001e') in 0.0454093 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Asteroids/small/a40015.png
+  artifactKey: Guid(a5ada1b000375604d9364dd8644d3cd6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/small/a40015.png using Guid(a5ada1b000375604d9364dd8644d3cd6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e89618a4841eb313b6cb7397e0f4e9f5') in 0.0346861 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Asteroids/medium/a10010.png
+  artifactKey: Guid(bda0e1bd23abade49a283a15741ae94f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/medium/a10010.png using Guid(bda0e1bd23abade49a283a15741ae94f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2925954c225b819e678d3162e4eb1335') in 0.0378078 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Asteroids/large/a10007.png
+  artifactKey: Guid(27350a258e9fd354ba86bcd25e68e44d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/large/a10007.png using Guid(27350a258e9fd354ba86bcd25e68e44d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '80789ae9cd42191c7e164f250c034544') in 0.0416414 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Asteroids/small/b30014.png
+  artifactKey: Guid(6926bfdb7387f4b4c95784390326a4a1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/small/b30014.png using Guid(6926bfdb7387f4b4c95784390326a4a1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0e4bf3bf54b8656d60b9619d9ae1d690') in 0.0405775 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Settings/Scenes/URP2DSceneTemplate.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Settings/Scenes/URP2DSceneTemplate.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b0c2f8f22efc4bb1497ae291b5ed34b5') in 0.0434043 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Asteroids/small/a30007.png
+  artifactKey: Guid(c05eea2999b1fc24a829b7d39622615a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/small/a30007.png using Guid(c05eea2999b1fc24a829b7d39622615a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '928843265589a8899273ae92974b58bf') in 0.0333207 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Asteroids/small/b40010.png
+  artifactKey: Guid(7043c6e69d0d9bf46ae1fa597debed25) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/small/b40010.png using Guid(7043c6e69d0d9bf46ae1fa597debed25) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd4a56f4442736ad4d864a2c48246408f') in 0.0337229 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Asteroids/small/b30012.png
+  artifactKey: Guid(d4380a36066e11b44955663e07dc5a64) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/small/b30012.png using Guid(d4380a36066e11b44955663e07dc5a64) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3455864c418ba61374bf0a6d71f2fe12') in 0.0334632 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Asteroids/small/a30009.png
+  artifactKey: Guid(0816bb56945468642a84d23307a098a0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/small/a30009.png using Guid(0816bb56945468642a84d23307a098a0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f7855621a8052c78cc7a9cf615040817') in 0.0408429 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Asteroids/small/b10002.png
+  artifactKey: Guid(8633c3b951c81ed4ca347824e0f316f1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/small/b10002.png using Guid(8633c3b951c81ed4ca347824e0f316f1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2b623575bcda17109025b503e1a48d5e') in 0.0350446 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Asteroids/small/b30015.png
+  artifactKey: Guid(149ca94516261874d829be89de9df12b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/small/b30015.png using Guid(149ca94516261874d829be89de9df12b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '337c983763f417c6963f2adefd49fde6') in 0.0323621 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Asteroids/small/b40001.png
+  artifactKey: Guid(d1cd411508e0e6242add3756cbb7e733) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/small/b40001.png using Guid(d1cd411508e0e6242add3756cbb7e733) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f1d2ff28d0e9734279a9ba69e1382632') in 0.0372461 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Asteroids/small/b40012.png
+  artifactKey: Guid(6d416d44a6b4ad14989883afb52eccdc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/small/b40012.png using Guid(6d416d44a6b4ad14989883afb52eccdc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9d8415847379c29a53b227c5f0762b98') in 0.0357204 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Asteroids/small/b10013.png
+  artifactKey: Guid(ea1d62eb3dcb32b4696f409fb496d26c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/small/b10013.png using Guid(ea1d62eb3dcb32b4696f409fb496d26c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '32c7877a8b67ce4c64f6d200991b49f9') in 0.037347 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Asteroids/small/a40014.png
+  artifactKey: Guid(812227fe4b40aa34f8adf5ecd4090baf) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/small/a40014.png using Guid(812227fe4b40aa34f8adf5ecd4090baf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e4bdf10c3a9bf8a696ad45f927e73124') in 0.0436249 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/Asteroids/small/a30002.png
+  artifactKey: Guid(d4913ec4fd74bb246afdabd9bdd75792) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/small/a30002.png using Guid(d4913ec4fd74bb246afdabd9bdd75792) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c79a338ecad7cb50c131af7d2d9642f7') in 0.0335665 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Asteroids/small/b30005.png
+  artifactKey: Guid(31f04eb240ed5b6418e2dfcc6d0927b3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/small/b30005.png using Guid(31f04eb240ed5b6418e2dfcc6d0927b3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '232a0c9151cd79c7817188f2220e34c1') in 0.0377877 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Asteroids/small/a40005.png
+  artifactKey: Guid(86f43b24303404a48a0b51a6451eaea5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/small/a40005.png using Guid(86f43b24303404a48a0b51a6451eaea5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cc6ca9802ed7d8aa268592e687a862cb') in 0.0665527 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Asteroids/small/a30014.png
+  artifactKey: Guid(72411dcdcc22e954899b9b2985102eda) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/small/a30014.png using Guid(72411dcdcc22e954899b9b2985102eda) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '480f2876d64cc5b79e80e5c5dacb7a13') in 0.1025232 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/Asteroids/small/a30010.png
+  artifactKey: Guid(50f8c264c0088654388d61689ecb9389) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/small/a30010.png using Guid(50f8c264c0088654388d61689ecb9389) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '689f2c28bfbab0d2c13a445bc1e42182') in 0.07491 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Asteroids/small/a30005.png
+  artifactKey: Guid(ffec85b6a3f8a9644a1f5259b931e399) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/small/a30005.png using Guid(ffec85b6a3f8a9644a1f5259b931e399) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd280b6cc03c44ba0d31e2fbb577b4703') in 0.0326214 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Asteroids/small/b10014.png
+  artifactKey: Guid(67aef3085b54eb6429f63aabe6977007) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/small/b10014.png using Guid(67aef3085b54eb6429f63aabe6977007) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0426a27f6934cdbab7a9c3ec9c5680be') in 0.0373871 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Asteroids/small/b10005.png
+  artifactKey: Guid(417f845f065e67e429c2242f172a4676) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/small/b10005.png using Guid(417f845f065e67e429c2242f172a4676) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '489936aa1f718bd43b2e45e7cacafe8b') in 0.0440125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Asteroids/large/a10013.png
+  artifactKey: Guid(cbf26270904434d498aa636fe73ee969) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/large/a10013.png using Guid(cbf26270904434d498aa636fe73ee969) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0ff9962fe09e9eaaac12595ecf5affa3') in 0.0418289 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Asteroids/small/a10011.png
+  artifactKey: Guid(8e977b49ff0788046a52a058795670d7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/small/a10011.png using Guid(8e977b49ff0788046a52a058795670d7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c54aa3062f958edd91673572e115103c') in 0.0385733 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Asteroids/medium/c10013.png
+  artifactKey: Guid(874a0f2181f577d44887ddb53f71d689) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/medium/c10013.png using Guid(874a0f2181f577d44887ddb53f71d689) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e1a2d8b6df704a088c1290086f205f1e') in 0.0444529 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Asteroids/medium/a40010.png
+  artifactKey: Guid(3f3faeed2167493438a4263abb50973f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/medium/a40010.png using Guid(3f3faeed2167493438a4263abb50973f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '90cdd4f28cba8196739a6ce15098153c') in 0.0409144 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Asteroids/medium/d30003.png
+  artifactKey: Guid(14bd270a749cb314eb766e27f5c19fb2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/medium/d30003.png using Guid(14bd270a749cb314eb766e27f5c19fb2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e09d6dbbc3c35f6af013a263b4887b52') in 0.0411139 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Asteroids/large/b30005.png
+  artifactKey: Guid(f90ac6a1070afa247bb547f1244e0fdf) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/large/b30005.png using Guid(f90ac6a1070afa247bb547f1244e0fdf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ebb7583039484f9ead13c1c08142f756') in 0.0379003 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Asteroids/small/b40006.png
+  artifactKey: Guid(819518300639cec4fb971ff953e0a9ae) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/small/b40006.png using Guid(819518300639cec4fb971ff953e0a9ae) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '03e0781c362878a7ffb25bd45746f695') in 0.0390838 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Asteroids/small/a40008.png
+  artifactKey: Guid(5141d4893f82b7b4c84d91b5debdc0f0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/small/a40008.png using Guid(5141d4893f82b7b4c84d91b5debdc0f0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4b7fee3f7e95ae0d9498ab9c3c5af5bc') in 0.0364303 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Asteroids/small/b30008.png
+  artifactKey: Guid(f41f7c574a5fd3f44b4b0689ccf9ba0a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/small/b30008.png using Guid(f41f7c574a5fd3f44b4b0689ccf9ba0a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8ea479716276a8879fb718bae335ee0e') in 0.0347562 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Asteroids/small/a30006.png
+  artifactKey: Guid(24c292fdf555f8041ac3d4f960a32466) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/small/a30006.png using Guid(24c292fdf555f8041ac3d4f960a32466) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '52b19a98144a20e3ceaa9e5046e4f1d9') in 0.0388298 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Asteroids/small/b10012.png
+  artifactKey: Guid(61e08ac6972a4ee4ea0f837f92466899) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/small/b10012.png using Guid(61e08ac6972a4ee4ea0f837f92466899) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5a29e667e9e7ba796da470d7137a00a2') in 0.0423562 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Asteroids/large/c30006.png
+  artifactKey: Guid(693fbb5edc54bba4bb04350776d172a3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/large/c30006.png using Guid(693fbb5edc54bba4bb04350776d172a3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '022205dc54eb4410d2b2caedae37fa72') in 0.0366886 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Asteroids/small/a10014.png
+  artifactKey: Guid(be4daede5db9cf6499deef7e00997c5e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/small/a10014.png using Guid(be4daede5db9cf6499deef7e00997c5e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '10f1e3765cac55cff30561c047c878f3') in 0.0402943 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Asteroids/large/a30011.png
+  artifactKey: Guid(42cbc0afacc28d14a8f91786befc4a8a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Asteroids/large/a30011.png using Guid(42cbc0afacc28d14a8f91786befc4a8a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1ba18f827f91b0170d53c8fba6451b44') in 0.0404271 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 122.507002 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/SampleScene.unity using Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3602a1d8a971cc4e5c5481f7c25eb165') in 0.0162918 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  3.530 seconds
+Refreshing native plugins compatible for Editor in 2.00 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.862 seconds
+Domain Reload Profiling: 5391ms
+	BeginReloadAssembly (2489ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (16ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (193ms)
+	RebuildCommonClasses (185ms)
+	RebuildNativeTypeToScriptingClass (26ms)
+	initialDomainReloadingComplete (64ms)
+	LoadAllAssembliesAndSetupDomain (765ms)
+		LoadAssemblies (2658ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (304ms)
+			TypeCache.Refresh (26ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (252ms)
+			ResolveRequiredComponents (20ms)
+	FinalizeReload (1863ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1334ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (134ms)
+			ProcessInitializeOnLoadAttributes (1082ms)
+			ProcessInitializeOnLoadMethodAttributes (94ms)
+			AfterProcessingInitializeOnLoad (14ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (20ms)
+Refreshing native plugins compatible for Editor in 1.89 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6523 unused Assets / (5.1 MB). Loaded Objects now: 7321.
+Memory consumption went from 171.0 MB to 165.8 MB.
+Total: 16.084000 ms (FindLiveObjects: 1.044100 ms CreateObjectMapping: 0.907700 ms MarkObjects: 10.381700 ms  DeleteObjects: 3.748900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.835 seconds
+Refreshing native plugins compatible for Editor in 2.37 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.324 seconds
+Domain Reload Profiling: 2160ms
+	BeginReloadAssembly (234ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (14ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (68ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (525ms)
+		LoadAssemblies (411ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (219ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (191ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (1325ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (933ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (66ms)
+			ProcessInitializeOnLoadAttributes (757ms)
+			ProcessInitializeOnLoadMethodAttributes (90ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (22ms)
+Refreshing native plugins compatible for Editor in 2.03 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6522 unused Assets / (4.7 MB). Loaded Objects now: 7323.
+Memory consumption went from 171.0 MB to 166.4 MB.
+Total: 19.256200 ms (FindLiveObjects: 1.205100 ms CreateObjectMapping: 1.756200 ms MarkObjects: 10.807100 ms  DeleteObjects: 5.486200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.656 seconds
+Refreshing native plugins compatible for Editor in 2.05 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.466 seconds
+Domain Reload Profiling: 3123ms
+	BeginReloadAssembly (419ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (16ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (126ms)
+	RebuildCommonClasses (66ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (1116ms)
+		LoadAssemblies (942ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (389ms)
+			TypeCache.Refresh (18ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (351ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (1466ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1052ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (162ms)
+			ProcessInitializeOnLoadAttributes (805ms)
+			ProcessInitializeOnLoadMethodAttributes (68ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 1.85 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6522 unused Assets / (4.4 MB). Loaded Objects now: 7325.
+Memory consumption went from 171.0 MB to 166.7 MB.
+Total: 14.007200 ms (FindLiveObjects: 1.094900 ms CreateObjectMapping: 1.001100 ms MarkObjects: 8.186200 ms  DeleteObjects: 3.723200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.009 seconds
+Refreshing native plugins compatible for Editor in 1.38 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.479 seconds
+Domain Reload Profiling: 2489ms
+	BeginReloadAssembly (285ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (19ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (77ms)
+	RebuildCommonClasses (50ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (623ms)
+		LoadAssemblies (513ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (250ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (224ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (1480ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1052ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (87ms)
+			ProcessInitializeOnLoadAttributes (875ms)
+			ProcessInitializeOnLoadMethodAttributes (71ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
+Refreshing native plugins compatible for Editor in 2.64 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6522 unused Assets / (4.8 MB). Loaded Objects now: 7327.
+Memory consumption went from 171.0 MB to 166.3 MB.
+Total: 18.839900 ms (FindLiveObjects: 1.254700 ms CreateObjectMapping: 1.303200 ms MarkObjects: 10.881800 ms  DeleteObjects: 5.398200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.352 seconds
+Refreshing native plugins compatible for Editor in 1.33 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.421 seconds
+Domain Reload Profiling: 2776ms
+	BeginReloadAssembly (503ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (21ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (154ms)
+	RebuildCommonClasses (92ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (43ms)
+	LoadAllAssembliesAndSetupDomain (702ms)
+		LoadAssemblies (735ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (235ms)
+			TypeCache.Refresh (14ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (207ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (1421ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1058ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (73ms)
+			ProcessInitializeOnLoadAttributes (909ms)
+			ProcessInitializeOnLoadMethodAttributes (61ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 1.86 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6522 unused Assets / (4.8 MB). Loaded Objects now: 7329.
+Memory consumption went from 171.0 MB to 166.3 MB.
+Total: 20.981700 ms (FindLiveObjects: 2.057200 ms CreateObjectMapping: 1.648500 ms MarkObjects: 11.820200 ms  DeleteObjects: 5.453100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.861 seconds
+Refreshing native plugins compatible for Editor in 1.66 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.367 seconds
+Domain Reload Profiling: 2229ms
+	BeginReloadAssembly (237ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (14ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (68ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (543ms)
+		LoadAssemblies (424ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (229ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (205ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (1368ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (974ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (73ms)
+			ProcessInitializeOnLoadAttributes (803ms)
+			ProcessInitializeOnLoadMethodAttributes (80ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (18ms)
+Refreshing native plugins compatible for Editor in 2.18 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6522 unused Assets / (4.2 MB). Loaded Objects now: 7331.
+Memory consumption went from 171.0 MB to 166.7 MB.
+Total: 15.198500 ms (FindLiveObjects: 1.229000 ms CreateObjectMapping: 1.225900 ms MarkObjects: 8.446600 ms  DeleteObjects: 4.295400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.850 seconds
+Refreshing native plugins compatible for Editor in 1.56 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.409 seconds
+Domain Reload Profiling: 2261ms
+	BeginReloadAssembly (234ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (14ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (68ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (539ms)
+		LoadAssemblies (421ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (225ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (201ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (1410ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1014ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (74ms)
+			ProcessInitializeOnLoadAttributes (835ms)
+			ProcessInitializeOnLoadMethodAttributes (86ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (18ms)
+Refreshing native plugins compatible for Editor in 2.26 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6522 unused Assets / (4.0 MB). Loaded Objects now: 7333.
+Memory consumption went from 171.1 MB to 167.0 MB.
+Total: 15.027400 ms (FindLiveObjects: 1.009200 ms CreateObjectMapping: 1.131900 ms MarkObjects: 8.811700 ms  DeleteObjects: 4.072300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.001 seconds
+Refreshing native plugins compatible for Editor in 1.39 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.424 seconds
+Domain Reload Profiling: 2426ms
+	BeginReloadAssembly (298ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (18ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (86ms)
+	RebuildCommonClasses (58ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (593ms)
+		LoadAssemblies (491ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (242ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (216ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (1424ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1013ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (72ms)
+			ProcessInitializeOnLoadAttributes (844ms)
+			ProcessInitializeOnLoadMethodAttributes (79ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (22ms)
+Refreshing native plugins compatible for Editor in 1.50 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6522 unused Assets / (4.2 MB). Loaded Objects now: 7335.
+Memory consumption went from 171.1 MB to 166.8 MB.
+Total: 17.312800 ms (FindLiveObjects: 1.952700 ms CreateObjectMapping: 1.536300 ms MarkObjects: 9.612000 ms  DeleteObjects: 4.209700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.880 seconds
+Refreshing native plugins compatible for Editor in 1.21 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.368 seconds
+Domain Reload Profiling: 2249ms
+	BeginReloadAssembly (239ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (14ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (66ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (555ms)
+		LoadAssemblies (438ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (228ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (205ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (1369ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1007ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (76ms)
+			ProcessInitializeOnLoadAttributes (838ms)
+			ProcessInitializeOnLoadMethodAttributes (76ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Refreshing native plugins compatible for Editor in 2.62 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6522 unused Assets / (4.4 MB). Loaded Objects now: 7337.
+Memory consumption went from 171.1 MB to 166.7 MB.
+Total: 19.129100 ms (FindLiveObjects: 1.351900 ms CreateObjectMapping: 1.962800 ms MarkObjects: 11.701100 ms  DeleteObjects: 4.111300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.07 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6511 unused Assets / (4.3 MB). Loaded Objects now: 7337.
+Memory consumption went from 171.2 MB to 166.9 MB.
+Total: 17.080500 ms (FindLiveObjects: 1.566600 ms CreateObjectMapping: 1.603800 ms MarkObjects: 10.061400 ms  DeleteObjects: 3.847200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.018 seconds
+Refreshing native plugins compatible for Editor in 1.40 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.150 seconds
+Domain Reload Profiling: 2171ms
+	BeginReloadAssembly (348ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (20ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (88ms)
+	RebuildCommonClasses (42ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (585ms)
+		LoadAssemblies (499ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (262ms)
+			TypeCache.Refresh (14ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (232ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (1150ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (840ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (71ms)
+			ProcessInitializeOnLoadAttributes (696ms)
+			ProcessInitializeOnLoadMethodAttributes (58ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Refreshing native plugins compatible for Editor in 1.75 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6522 unused Assets / (4.5 MB). Loaded Objects now: 7339.
+Memory consumption went from 171.1 MB to 166.6 MB.
+Total: 12.589100 ms (FindLiveObjects: 1.229900 ms CreateObjectMapping: 0.795400 ms MarkObjects: 6.931200 ms  DeleteObjects: 3.630000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.283 seconds
+Refreshing native plugins compatible for Editor in 2.03 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.808 seconds
+Domain Reload Profiling: 3090ms
+	BeginReloadAssembly (408ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (23ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (120ms)
+	RebuildCommonClasses (53ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (43ms)
+	LoadAllAssembliesAndSetupDomain (764ms)
+		LoadAssemblies (639ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (327ms)
+			TypeCache.Refresh (13ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (298ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (1809ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1195ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (92ms)
+			ProcessInitializeOnLoadAttributes (975ms)
+			ProcessInitializeOnLoadMethodAttributes (102ms)
+			AfterProcessingInitializeOnLoad (15ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (26ms)
+Refreshing native plugins compatible for Editor in 2.43 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6522 unused Assets / (4.5 MB). Loaded Objects now: 7341.
+Memory consumption went from 171.0 MB to 166.5 MB.
+Total: 14.072200 ms (FindLiveObjects: 1.069400 ms CreateObjectMapping: 0.539300 ms MarkObjects: 7.843700 ms  DeleteObjects: 4.617900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.034 seconds
+Refreshing native plugins compatible for Editor in 1.31 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.489 seconds
+Domain Reload Profiling: 2523ms
+	BeginReloadAssembly (318ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (20ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (81ms)
+	RebuildCommonClasses (54ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (41ms)
+	LoadAllAssembliesAndSetupDomain (602ms)
+		LoadAssemblies (528ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (232ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (208ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (1489ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1083ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (83ms)
+			ProcessInitializeOnLoadAttributes (906ms)
+			ProcessInitializeOnLoadMethodAttributes (77ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (18ms)
+Refreshing native plugins compatible for Editor in 1.72 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6522 unused Assets / (4.2 MB). Loaded Objects now: 7343.
+Memory consumption went from 171.1 MB to 166.9 MB.
+Total: 18.600500 ms (FindLiveObjects: 2.023400 ms CreateObjectMapping: 1.301200 ms MarkObjects: 10.629100 ms  DeleteObjects: 4.644300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.316 seconds
+Refreshing native plugins compatible for Editor in 1.50 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.227 seconds
+Domain Reload Profiling: 2546ms
+	BeginReloadAssembly (365ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (18ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (133ms)
+	RebuildCommonClasses (131ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (769ms)
+		LoadAssemblies (669ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (255ms)
+			TypeCache.Refresh (15ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (224ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (1228ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (880ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (80ms)
+			ProcessInitializeOnLoadAttributes (726ms)
+			ProcessInitializeOnLoadMethodAttributes (57ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 3.33 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6522 unused Assets / (4.9 MB). Loaded Objects now: 7345.
+Memory consumption went from 171.1 MB to 166.2 MB.
+Total: 25.395600 ms (FindLiveObjects: 2.409500 ms CreateObjectMapping: 2.491000 ms MarkObjects: 12.646500 ms  DeleteObjects: 7.844700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
