@@ -391,6 +391,8 @@ MonoBehaviour:
   screenBottom: -11
   screenLeft: -18
   screenRight: 18
+  bulletForce: 200
+  bullet: {fileID: 8983214928486956012, guid: db3f40768edb904489e4df555f13ef07, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

@@ -13,20 +13,29 @@ public class SpaceshipControls : MonoBehaviour
     public float screenBottom;
     public float screenLeft;
     public float screenRight;
+    public float bulletForce;
+
+    public GameObject bullet;
 
     // Initiallization
-    void Start () {
-
-
+    void Start () 
+    {
 
     }
-    
 
     // Update is called once per frame
     void Update () {
         // Check for input from keyboard
         thrustInput = Input.GetAxis ("Vertical");
         turnInput = Input.GetAxis ("Horizontal");
+
+        // Check for input from the fire key and make bullets
+        if (Input.GetButtonDown("Fire1"))
+        {
+            GameObject newBullet = Instantiate(bullet, transform.position, transform.rotation);
+            newBullet.GetComponent<Rigidbody2D> ().AddRelativeForce(Vector2.up * bulletForce);
+            Destroy (newBullet, 5.0f);
+        }
 
         // Screen Wraping
 
