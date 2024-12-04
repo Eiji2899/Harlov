@@ -51,4 +51,10 @@ public class AsteroidScript : MonoBehaviour
 
         transform.position = newPos;
     }
+
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        Destroy (other.gameObject);
+    }
+
 }

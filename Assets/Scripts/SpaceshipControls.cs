@@ -14,6 +14,7 @@ public class SpaceshipControls : MonoBehaviour
     public float screenLeft;
     public float screenRight;
     public float bulletForce;
+    public float deathForce;
 
     public GameObject bullet;
 
@@ -36,6 +37,9 @@ public class SpaceshipControls : MonoBehaviour
             newBullet.GetComponent<Rigidbody2D> ().AddRelativeForce(Vector2.up * bulletForce);
             Destroy (newBullet, 5.0f);
         }
+
+        // Rotate the ship
+        transform.Rotate(Vector3.forward * turnInput * Time.deltaTime * -turnThrust);
 
         // Screen Wraping
 
@@ -67,7 +71,15 @@ public class SpaceshipControls : MonoBehaviour
     void FixedUpdate ()
     {
         rb.AddRelativeForce (Vector2.up * thrustInput);
-        rb.AddTorque (-turnInput);
+        //rb.AddTorque (-turnInput);
     }
 
+    void OnCollisionEnter2D (Collision2D col)
+    {
+        Debug.Log (col.relativeVelocity.magnitude);
+        if (col.relativeVelocity.magnitude > deathForce)
+        {
+            Debug.Log ("Death");
+        }
+    }
 }
