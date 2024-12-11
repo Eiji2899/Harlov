@@ -139,6 +139,8 @@ MonoBehaviour:
   asteroidSize: 1
   asteroidMedium: {fileID: 248576621333941756, guid: b2bbba4b78fd1c84180b24fa1890d640, type: 3}
   asteroidSmall: {fileID: 6819494217547469141}
+  points: 50
+  player: {fileID: 0}
 --- !u!58 &8387460920774662524
 CircleCollider2D:
   m_ObjectHideFlags: 0

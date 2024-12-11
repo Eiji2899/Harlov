@@ -176,3 +176,5 @@ MonoBehaviour:
   asteroidSize: 2
   asteroidMedium: {fileID: 248576621333941756}
   asteroidSmall: {fileID: 6819494217547469141, guid: 4559889d5033b1c45af37d48b80f2323, type: 3}
+  points: 25
+  player: {fileID: 0}

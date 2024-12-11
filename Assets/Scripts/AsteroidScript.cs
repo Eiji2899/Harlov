@@ -14,6 +14,8 @@ public class AsteroidScript : MonoBehaviour
     public int asteroidSize;   //3=large, 2=medium, 1=small
     public GameObject asteroidMedium;
     public GameObject asteroidSmall;
+    public int points;
+    public GameObject player;
 
     // Use this for initialization
     void Start()
@@ -25,6 +27,7 @@ public class AsteroidScript : MonoBehaviour
      rb.AddForce (thrust);
      rb.AddTorque (torque);
 
+     player=GameObject.FindWithTag("Player");
     
     }
 
@@ -79,6 +82,8 @@ public class AsteroidScript : MonoBehaviour
             {
 
             }
+            player.SendMessage("ScorePoints",points);
+
             Destroy(gameObject);
 
 

@@ -1,6 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using TMPro; 
+
+
 
 public class SpaceshipControls : MonoBehaviour
 {
@@ -18,9 +22,17 @@ public class SpaceshipControls : MonoBehaviour
 
     public GameObject bullet;
 
+    public int score;
+    public int lives;
+    public TMP_Text scoreText;
+    public TMP_Text livesText;
+
     // Initiallization
     void Start () 
     {
+        score = 0;
+        scoreText.text = "Score " + score;
+        livesText.text = "Lives " + lives;
 
     }
 
@@ -74,12 +86,23 @@ public class SpaceshipControls : MonoBehaviour
         //rb.AddTorque (-turnInput);
     }
 
+    void ScorePoints(int pointsToAdd)
+    {
+        score += pointsToAdd;
+        scoreText.text = "Score " + score;
+
+    }
     void OnCollisionEnter2D (Collision2D col)
     {
         Debug.Log (col.relativeVelocity.magnitude);
         if (col.relativeVelocity.magnitude > deathForce)
         {
-            Debug.Log ("Death");
+            lives--;
+            livesText.text = "Lives " + lives;
+            if (lives <= 0)
+            {
+                //game over
+            }
         }
     }
 }
