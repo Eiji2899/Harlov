@@ -29,6 +29,9 @@ public class SpaceshipControls : MonoBehaviour
 
     public AudioSource audio;
     public GameObject explosion;
+
+    public Color inColor;
+    public Color normalColor;
     // Initiallization
     void Start () 
     {
@@ -95,6 +98,26 @@ public class SpaceshipControls : MonoBehaviour
         scoreText.text = "Score " + score;
 
     }
+
+    void Respawn()
+    {
+        rb.linearVelocity = Vector2.zero;
+        transform.position = Vector2.zero;
+
+        SpriteRenderer sr=GetComponent<SpriteRenderer>();
+        sr.enabled = true;
+        sr.color = inColor;
+        Invoke("Invulnerable", 3f);
+        
+
+    }
+
+    void Invulnerable()
+    {
+        GetComponent<Collider2D>().enabled = true;
+        GetComponent<SpriteRenderer>().color = normalColor;
+
+    }
     void OnCollisionEnter2D (Collision2D col)
     {
         Debug.Log (col.relativeVelocity.magnitude);
@@ -106,6 +129,14 @@ public class SpaceshipControls : MonoBehaviour
             GameObject newExplosion = Instantiate(explosion, transform.position, transform.rotation);
             Destroy(newExplosion,3f);
             livesText.text = "Lives " + lives;
+            //Respawn -New life
+
+
+            GetComponent<SpriteRenderer>().enabled = false;
+            GetComponent<Collider2D>().enabled = false;
+            Invoke("Respawn", 3f);
+
+
             if (lives <= 0)
             {
                 //game over

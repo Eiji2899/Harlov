@@ -619,6 +619,8 @@ MonoBehaviour:
   livesText: {fileID: 948438118}
   audio: {fileID: 770383111}
   explosion: {fileID: 1000011797152326, guid: acf39d9f4addf294d93fa56fa373961b, type: 3}
+  inColor: {r: 1, g: 1, b: 1, a: 0.29411766}
+  normalColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!70 &770383110
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
