@@ -27,10 +27,13 @@ public class SpaceshipControls : MonoBehaviour
     public TMP_Text scoreText;
     public TMP_Text livesText;
 
+    public AudioSource audio;
+    public GameObject explosion;
     // Initiallization
     void Start () 
     {
         score = 0;
+        lives = 3;
         scoreText.text = "Score " + score;
         livesText.text = "Lives " + lives;
 
@@ -95,14 +98,24 @@ public class SpaceshipControls : MonoBehaviour
     void OnCollisionEnter2D (Collision2D col)
     {
         Debug.Log (col.relativeVelocity.magnitude);
+        
         if (col.relativeVelocity.magnitude > deathForce)
         {
             lives--;
+            //Make explosion
+            GameObject newExplosion = Instantiate(explosion, transform.position, transform.rotation);
+            Destroy(newExplosion,3f);
             livesText.text = "Lives " + lives;
             if (lives <= 0)
             {
                 //game over
             }
         }
+        else
+        {
+            audio.Play();
+        }
     }
+
+
 }

@@ -16,6 +16,7 @@ public class AsteroidScript : MonoBehaviour
     public GameObject asteroidSmall;
     public int points;
     public GameObject player;
+    public GameObject explosion; 
 
     // Use this for initialization
     void Start()
@@ -69,6 +70,7 @@ public class AsteroidScript : MonoBehaviour
             {
                 Instantiate(asteroidMedium,transform.position, transform.rotation);
                 Instantiate(asteroidMedium, transform.position, transform.rotation);
+
                
 
                 
@@ -83,6 +85,8 @@ public class AsteroidScript : MonoBehaviour
 
             }
             player.SendMessage("ScorePoints",points);
+            GameObject newExplosion=Instantiate(explosion,transform.position, transform.rotation);
+            Destroy (newExplosion,3f);
 
             Destroy(gameObject);
 

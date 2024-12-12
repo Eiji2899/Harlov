@@ -486,6 +486,7 @@ GameObject:
   - component: {fileID: 770383106}
   - component: {fileID: 770383109}
   - component: {fileID: 770383110}
+  - component: {fileID: 770383111}
   m_Layer: 0
   m_Name: Spaceship_0
   m_TagString: Player
@@ -616,6 +617,8 @@ MonoBehaviour:
   lives: 0
   scoreText: {fileID: 107336316}
   livesText: {fileID: 948438118}
+  audio: {fileID: 770383111}
+  explosion: {fileID: 1000011797152326, guid: acf39d9f4addf294d93fa56fa373961b, type: 3}
 --- !u!70 &770383110
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -653,6 +656,103 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 0.51, y: 0.79}
   m_Direction: 0
+--- !u!82 &770383111
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 770383105}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: -3969046846491992079, guid: 4007ec553a0a8e244b41b7d5199d2afc, type: 2}
+  m_audioClip: {fileID: 8300000, guid: 5a734bcdccebe4d0aa169e4bc43d5210, type: 3}
+  m_Resource: {fileID: 8300000, guid: 5a734bcdccebe4d0aa169e4bc43d5210, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &948438116
 GameObject:
   m_ObjectHideFlags: 0
@@ -905,14 +1005,6 @@ PrefabInstance:
       value: Asteroid Large
       objectReference: {fileID: 0}
     - target: {fileID: 7718586997095238053, guid: 0a51d1efda6894b418d7c0d63efd8b32, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 3.1442144
-      objectReference: {fileID: 0}
-    - target: {fileID: 7718586997095238053, guid: 0a51d1efda6894b418d7c0d63efd8b32, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 3.1335
-      objectReference: {fileID: 0}
-    - target: {fileID: 7718586997095238053, guid: 0a51d1efda6894b418d7c0d63efd8b32, type: 3}
       propertyPath: m_LocalPosition.x
       value: -9.35
       objectReference: {fileID: 0}
@@ -951,10 +1043,6 @@ PrefabInstance:
     - target: {fileID: 7718586997095238053, guid: 0a51d1efda6894b418d7c0d63efd8b32, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8654353428001984310, guid: 0a51d1efda6894b418d7c0d63efd8b32, type: 3}
-      propertyPath: m_Mass
-      value: 11.556701
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
